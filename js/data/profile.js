@@ -23,7 +23,6 @@ export const profile = {
     "Bioelectronic Sensing",
     "Flexible Electronics",
     "Circuit Design",
-    "Smart Sensors"
   ],
 
   about: [
