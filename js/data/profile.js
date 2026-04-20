@@ -3,9 +3,9 @@ export const profile = {
   chineseName: "吴卓迅",
   title: "Electronic Engineering Student",
   university: "University of Liverpool",
-  githubUsername: "YOUR_GITHUB_USERNAME",
-  email: "YOUR_EMAIL@example.com",
-  linkedin: "YOUR_LINKEDIN",
+  githubUsername: "wuzhuoxun",
+  email: "wenzeye1212@gmail.com",
+  linkedin: "https://www.linkedin.com/feed/",
 
   tagline: "Engineering the interface between signals, matter, and life.",
 
