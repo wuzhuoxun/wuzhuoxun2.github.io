@@ -3,23 +3,27 @@ export const profile = {
   chineseName: "吴卓迅",
   title: "Electronic Engineering Student",
   university: "University of Liverpool",
-  githubUsername: "wuzhuoxun",
-  email: "wenzeye1212@gmail.com",
-  linkedin: "https://www.linkedin.com/in/zhuoxun-wu-liverpool/",
+  githubUsername: "YOUR_GITHUB_USERNAME",
+  email: "YOUR_EMAIL@example.com",
+  linkedin: "YOUR_LINKEDIN",
 
   tagline: "Engineering the interface between signals, matter, and life.",
 
   status: {
     id: "Zhuoxun Wu",
     alias: "吴卓迅",
-    status: "STUDENT",
+    status: "ONLINE",
     institution: "University of Liverpool",
-    mode: "Research / Learning",
+    mode: "Research / Learning / Building",
+    signal: "STABLE",
+    access: "GRANTED"
   },
 
   tags: [
-    "Microelectronics",
-    "Device",
+    "Bioelectronic Sensing",
+    "Flexible Electronics",
+    "Circuit Design",
+    "Smart Sensors"
   ],
 
   about: [
@@ -51,16 +55,25 @@ export const profile = {
   focus: [
     {
       number: "01",
-      title: "Microelectronics",
-      description: "Soft, wearable, and adaptive electronic platforms."
+      title: "Bioelectronic Sensing",
+      description: "Signal interfaces between biological systems and electronic devices."
     },
     {
       number: "02",
-      title: "Device",
+      title: "Flexible Electronics",
+      description: "Soft, wearable, and adaptive electronic platforms."
+    },
+    {
+      number: "03",
+      title: "Circuit Design",
       description: "Low-noise, practical, and reliable electronic system design."
     },
     {
-
+      number: "04",
+      title: "Smart Sensor Systems",
+      description: "Integrated sensing, acquisition, processing, and interpretation."
+    }
+  ],
 
   projects: [
     {
@@ -76,11 +89,18 @@ export const profile = {
       link: "https://github.com/YOUR_GITHUB_USERNAME"
     },
     {
+      id: "PROJECT_03",
+      title: "Smart Sensor Dashboard",
+      description: "A cyber-physical interface for displaying, analysing, and interpreting sensor signals.",
+      link: "https://github.com/YOUR_GITHUB_USERNAME"
+    }
+  ],
 
   interests: [
     "Esports",
     "Movies",
     "Gobang Chess",
-
+    "Technology",
+    "Future Interfaces"
   ]
 };
