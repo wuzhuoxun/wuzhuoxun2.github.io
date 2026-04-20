@@ -12,17 +12,14 @@ export const profile = {
   status: {
     id: "Zhuoxun Wu",
     alias: "吴卓迅",
-    status: "ONLINE",
+    status: "STUDENT",
     institution: "University of Liverpool",
-    mode: "Research / Learning / Building",
-    signal: "STABLE",
-    access: "GRANTED"
+    mode: "Research / Learning",
   },
 
   tags: [
-    "Bioelectronic Sensing",
-    "Flexible Electronics",
-    "Circuit Design",
+    "Microelectronics",
+    "Device",
   ],
 
   about: [
@@ -54,25 +51,16 @@ export const profile = {
   focus: [
     {
       number: "01",
-      title: "Bioelectronic Sensing",
-      description: "Signal interfaces between biological systems and electronic devices."
-    },
-    {
-      number: "02",
-      title: "Flexible Electronics",
+      title: "Microelectronics",
       description: "Soft, wearable, and adaptive electronic platforms."
     },
     {
-      number: "03",
-      title: "Circuit Design",
+      number: "02",
+      title: "Device",
       description: "Low-noise, practical, and reliable electronic system design."
     },
     {
-      number: "04",
-      title: "Smart Sensor Systems",
-      description: "Integrated sensing, acquisition, processing, and interpretation."
-    }
-  ],
+
 
   projects: [
     {
@@ -88,18 +76,11 @@ export const profile = {
       link: "https://github.com/YOUR_GITHUB_USERNAME"
     },
     {
-      id: "PROJECT_03",
-      title: "Smart Sensor Dashboard",
-      description: "A cyber-physical interface for displaying, analysing, and interpreting sensor signals.",
-      link: "https://github.com/YOUR_GITHUB_USERNAME"
-    }
-  ],
 
   interests: [
     "Esports",
     "Movies",
     "Gobang Chess",
-    "Technology",
-    "Future Interfaces"
+
   ]
 };
