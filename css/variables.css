@@ -1,0 +1,12 @@
+:root {
+  --bg: #05070d;
+  --panel: rgba(11, 15, 24, 0.82);
+
+  --cyan: #00e5ff;
+  --pink: #ff2fd6;
+  --purple: #7a5cff;
+  --white: #eafbff;
+  --muted: #8ea7b8;
+
+  --border: rgba(0, 229, 255, 0.35);
+}

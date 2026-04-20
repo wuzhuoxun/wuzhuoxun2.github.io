@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 47, 214, 0.18), transparent 30%),
+    radial-gradient(circle at 80% 10%, rgba(0, 229, 255, 0.18), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(122, 92, 255, 0.16), transparent 35%);
+  z-index: -4;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  z-index: 10;
+  background-image:
+    linear-gradient(transparent 50%, rgba(255,255,255,.04) 50%);
+  background-size: 100% 4px;
+}
+
+.grid-bg {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 229, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 47, 214, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  transform: perspective(800px) rotateX(58deg) scale(1.8);
+  transform-origin: center bottom;
+  top: 35%;
+  z-index: -3;
+  animation: gridMove 14s linear infinite;
+}
+
+.scanline {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 229, 255, 0.08),
+    transparent
+  );
+  height: 120px;
+  animation: scan 5s linear infinite;
+  z-index: 9;
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 48px;
+  }
+}
+
+@keyframes scan {
+  0% {
+    transform: translateY(-120px);
+  }
+
+  100% {
+    transform: translateY(100vh);
+  }
+}
