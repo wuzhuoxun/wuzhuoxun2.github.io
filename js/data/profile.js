@@ -5,7 +5,7 @@ export const profile = {
   university: "University of Liverpool",
   githubUsername: "wuzhuoxun",
   email: "wenzeye1212@gmail.com",
-  linkedin: "https://www.linkedin.com/feed/",
+  linkedin: "https://www.linkedin.com/in/zhuoxun-wu-liverpool/",
 
   tagline: "Engineering the interface between signals, matter, and life.",
 
